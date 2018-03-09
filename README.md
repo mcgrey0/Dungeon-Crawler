@@ -19,3 +19,27 @@ public class Villian extends Being{
 After we create our dungeon crawler game there will be client/server interaction
 The client will interact with the server. 
 The server will house the logic of our game. 
+import java.util.Scanner;
+
+public class DungeonCrawler2 {
+    public static void main (String [] args){
+        Scanner myScanner = new Scanner(System.in);
+        
+        DungeonCrawler1 hero = new DungeonCrawler1();
+        DungeonCrawler1 Villain = new DungeonCrawler1();
+        
+        hero.changeName("Hero");
+        hero.changeStrength(100);
+        hero.changehealth(100);
+        hero.printStates();
+        
+        Villain.changeName("Villain");
+        Villain.changeStrength(25);
+        Villain.changehealth(50);
+        Villain.printStates();
+         
+        System.out.println("Type your name to being dungeon Crawler");
+        String name = myScanner.nextLine();
+        System.out.println("Get Ready "+ name +" your game begins now!!!");
+        
+       The code above set the initial attack strength, and health of both the hero and villain
