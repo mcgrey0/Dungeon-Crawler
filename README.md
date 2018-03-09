@@ -43,3 +43,5 @@ public class DungeonCrawler2 {
         System.out.println("Get Ready "+ name +" your game begins now!!!");
         
        The code above set the initial attack strength, and health of both the hero and villain
+       
+       And it prompts users to start the game.
