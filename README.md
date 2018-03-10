@@ -19,3 +19,28 @@ public class Villian extends Being{
 After we create our dungeon crawler game there will be client/server interaction
 The client will interact with the server. 
 The server will house the logic of our game. 
+
+
+              System.out.println("   HERO  ");
+            System.out.println("    ____");
+            System.out.println("   /    \\");
+            System.out.println("  |      |");
+            System.out.println("   \\____/   //");
+            System.out.println("      |    //");
+            System.out.println("     /|\\  // ");
+            System.out.println("    / | \\//");
+            System.out.println("     / \\");
+            System.out.println("    /   \\");
+        
+             System.out.println("   Villain   ");
+            System.out.println("    ____");
+            System.out.println("   /    \\");
+            System.out.println("  |      |");
+            System.out.println("   \\____/   ");
+            System.out.println("      |    ");
+            System.out.println(" \\   /|\\  / ");
+            System.out.println("  \\/ |  \\/  ");
+            System.out.println("     / \\");
+            System.out.println("    /   \\");   
+            
+            These are my objects my hero and my villain. 
